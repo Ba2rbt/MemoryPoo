@@ -1,0 +1,23 @@
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .card {
+    width: 10vw;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
